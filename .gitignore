@@ -1,0 +1,18 @@
+
+#Executable files
+evm-disassembler
+test
+a.out
+
+#Relocatable objects files
+relocs
+relocs/*
+*.o
+
+#Local vscode config
+.vscode
+.vscode/*
+
+#Log files
+log
+*.log
