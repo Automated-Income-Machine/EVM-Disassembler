@@ -4,7 +4,7 @@ The main purpose of this project is the EVM bytecodes parsing. However, a disass
 
 ### Downloading and compilation
 ```sh
-git clone https://github.com/Automated-Money-Machine/EVM-Disassembler ~/EVM-Disassembler && \
+git clone https://github.com/Automated-Income-Machine/EVM-Disassembler ~/EVM-Disassembler && \
 cd ~/EVM-Disassembler && \
 make
 ```
