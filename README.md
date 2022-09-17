@@ -29,7 +29,7 @@ Each instruction follows the following format:
 ```
 When `<input operands>` is between curly braces (`{`,`}`) the operation is destructive.
 When `<gas>` is followded by a wildcard (`*`) the operation consumes an addon of dynamic gas.
-`st` stands for `stack` since the EVM has no registers all instruction use either the stack or immediate data.
+`st` stands for `stack`, since the EVM has no registers all instruction use either the stack or immediate data.
 In `st(N)` `N` is the depth of the stack.
 
 ---
