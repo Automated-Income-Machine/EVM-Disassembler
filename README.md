@@ -1,6 +1,6 @@
 # EVM-Disassembler
 
-The main purpose of this project is the EVM bytecodes parsing. However, disassembler has been implemented for testing.
+The main purpose of this project is the EVM bytecodes parsing. However, a disassembler has been implemented for testing.
 
 ### Downloading and compilation
 ```sh
