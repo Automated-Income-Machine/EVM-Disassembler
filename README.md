@@ -1,6 +1,6 @@
 # EVM-Disassembler
 
-EVM bilateral instructions tokenizer implemented in C. With which a disassembler has been implemented in order to ease testing. 
+EVM bilateral instruction tokenizer implemented in C. With which a disassembler has been implemented in order to ease testing. 
 
 ### Downloading and compilation
 ```sh
