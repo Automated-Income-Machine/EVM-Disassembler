@@ -1,6 +1,6 @@
 # EVM-Disassembler
 
-The main purpose of this project is the EVM bytecodes parsing. However, a disassembler has been implemented for testing.
+EVM bilateral instructions tokenizer implemented in C. A disassembler has been implemented in order to ease testing. 
 
 ### Downloading and compilation
 ```sh
@@ -32,8 +32,8 @@ Each instruction follows the following format:
 - `st` stands for `stack`, since the EVM has no registers all instruction use either the stack or immediate data.
 - In `st(N)` `N` is the depth of the stack.
 
-### Instruction struct
-Each instruction is represented in form of struct `instruction_t`:
+### Instruction token
+Each instruction is tokenized in form of struct `instruction_t`:
 ```c
 // includes/dev/types.h
 
@@ -58,8 +58,8 @@ typedef struct
 ```
 
 ### The (mini) Lib
-- The function `get_instructions` converts N instructions from bytecode to `instruction_t` enties. Return 0 on success.
-- The function `clear_instructions` automatically frees all immediates from a given set of instructions.
+- The function `get_instructions` converts N instructions from bytecode to `instruction_t` tokens. Return 0 on success.
+- The function `clear_instructions` automatically frees all immediates from a given set of tokens.
 
 Their prototypes:
 ```c
